@@ -1,3 +1,15 @@
-h1 {
-  color: red;
+ {
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   list-style: none;
+ }
+body{
+  font-family: "poppins";
+}
+header{
+  height: 100vh;
+  width: 100vw;
+  background-color: red;
+  background-size: cover;
 }
