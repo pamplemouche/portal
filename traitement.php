@@ -1,5 +1,9 @@
 <?php
 if(isset($_POST['ok'])){
-  var_dump($_POST);
+  $nom = $_POST['nom']
+  $prenom = $_POST['prenom']
+  $pseudo = $_POST['pseudo']
+  $mdp = $_POST['pass']
+  $email = $_POST['email']
 }
 ?>
