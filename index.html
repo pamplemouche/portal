@@ -1,25 +1,55 @@
 <!DOCTYPE html>
-<html lang="de">
 <html>
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Pamplemouche Portal</title>
-<meta name="description" content=***>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <img class="logo" src="images/IMG_0361.jpeg" alt="logo">
-    <nav>
-      <ul class="nav_links">
-        <li><a href="Nos Sites.html">Nos sites</a> </li>
-        <li><a href="#">Nos jeux</a> </li>
-        <li><a href="#">A propos</a> </li>
-      </ul>
-    </nav>
-    <a class="cta" href="sign-up.html"><button>Créer un compte</button></a>
-  </header>
-</body>
+  <head>
+    <title>Français Plus: Accueil</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="bottom-navbar">
+  <a href="Nos Sites.html"><i class="fas fa-home"></i><span>Accueil</span></a>
+  <a href="#logout"><i class="fas fa-right-to-bracket"></i><span>Déconnexion</span></a>
+</div>
+    <style>
+      .bottom-navbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 85%;
+  background: #1a1a1a;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.2);
+  z-index: 1000;
+ margin-bottom: 20px;
+  margin-left: 7%;
+        border-radius: 10px;
+}
+span {
+  
+  font-family: 'Montserrat', sans-serif;
+}
+.bottom-navbar a {
+  color: #fff;
+  text-decoration: none;
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.bottom-navbar a i {
+  font-size: 22px;
+  margin-bottom: 3px;
+}
+
+.bottom-navbar a:hover {
+  color: #fbc531;
+}
+    </style>
+  </body>
 </html>
