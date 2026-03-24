@@ -1,6 +1,0 @@
-﻿{
-  "Description": "Fichier de vérification de la propriété du domaine pour Microsoft 365 : placer dans la racine du site web",
-  "Domain": "Pamplemouche.fr.nf",
-  "Id": "62e66275-523f-4bc1-affb-2fa827bc56e9"
-
-}
